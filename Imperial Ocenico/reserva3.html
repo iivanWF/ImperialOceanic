@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva tu Crucero</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <header id="cabecera" class="sticky-header">
+    <div class="header-container">
+        <!-- Logo y traductor -->
+        <div class="logo">
+            <img src="image/logo.png" alt="Logo">
+        </div>
+        <div id="google_translate_element"></div>
+        <!-- Menú y registro -->
+        <div class="actions">
+            <ul>
+              <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="Proyecto.html">Quiénes somos</a></li>
+                <li><a href="#">Cruceros y experiencias</a></li>
+            </ul>
+            <div class="reg">
+                <a href="#">Mi Cuenta</a>
+            </div>
+        </div>
+    </div>
+  </header>
+    <div class="hero">
+        <h1>Confirmación de reserva</h1>
+    </div>
+
+    <div class="form-container">
+        <div class="form-section">
+            <h3>¡Gracias por reservar con Imperial Oceánico!</h3>
+            <h3>Recibirás un correo con los detalles de tu viaje.</h3>
+            <hr class="separator"> <!-- Línea horizontal -->
+            <a href="inicio.html"><button class="submit-btn">DESCARGAR TICKET</button></a>
+        </div>
+    </div>
+</body>
+</html>
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'es',
+    includedLanguages: 'es,en,it,fr,ru,ar,ja,ko,hi',
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+  }
+</script>

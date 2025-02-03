@@ -1,0 +1,50 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    line-height: 1.6;
+  
+    /* Para hacerlo más estrecho y centrado */
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 0 20px; /* Un poco de padding para que no pegue al borde */
+  }
+  
+  /* Encabezados */
+  h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #666;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  /* Párrafos */
+  p {
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+  
+  /* Secciones */
+  section {
+    background-color: #fff;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  /* Pie de página (si lo usas) */
+  footer {
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    margin-top: 30px;
+  }
+  
