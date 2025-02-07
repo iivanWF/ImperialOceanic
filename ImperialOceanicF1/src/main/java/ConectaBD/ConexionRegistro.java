@@ -47,7 +47,7 @@ public class ConexionRegistro extends HttpServlet {
 			pstmt.setString(4, fecha_nacimiento);
 			pstmt.executeUpdate();
 
-			response.sendRedirect("inicio.html");
+			response.sendRedirect("index.html");
 
 		} catch (Exception e) {
 			response.getWriter().println("<p>Error: " + e.getMessage() + "</p>");

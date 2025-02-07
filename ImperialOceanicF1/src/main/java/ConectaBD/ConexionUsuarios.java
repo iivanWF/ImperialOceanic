@@ -47,7 +47,7 @@ public class ConexionUsuarios extends HttpServlet {
 				HttpSession session = request.getSession();
 				session.setAttribute("usuario", result.getString("nombre"));
 				session.setAttribute("correo", correo);
-				response.sendRedirect("inicio.html");
+				response.sendRedirect("index.html");
 			} else {
 				response.sendRedirect("iniciosesion.html");
 			}

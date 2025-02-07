@@ -94,20 +94,20 @@
                 margin: 10px 0;
             }
         }
-        
+
     </style>
 </head>
 <body>
     <div class="hero">
-        <h1>Confirmación de reserva</h1>
+        <h1>Confirmaciï¿½n de reserva</h1>
     </div>
 
     <div class="form-container">
         <div class="form-section">
-            <h3>¡Gracias por reservar con Imperial Oceánico!</h3>
-            <h3>Recibirás un correo con los detalles de tu viaje.</h3>
+            <h3>ï¿½Gracias por reservar con Imperial Oceï¿½nico!</h3>
+            <h3>Recibirï¿½s un correo con los detalles de tu viaje.</h3>
             <hr class="separator">
-            <a href="inicio.html">
+            <a href="index.html">
     			<button class="submit-btn">DESCARGAR TICKET</button>
 			</a>
         </div>
